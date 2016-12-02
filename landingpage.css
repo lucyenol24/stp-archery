@@ -1,0 +1,30 @@
+body {
+  color: ghostwhite;
+  background-color: palegreen;
+  background-size: 100%;
+  display: block;
+}
+
+h1 {
+  position: fixed;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Special Elite", cursive;
+}
+
+a:link, a:visited {
+  color: palevioletred;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+footer {
+  font-family: "Special Elite", cursive;
+  width: 100%;
+  position: fixed;
+  color: azure;
+  top: 95%;
+  bottom: 0;
+}
