@@ -28,6 +28,11 @@ a:link, a:visited {
   color: black;
 }
 
+figure img {
+  width: 100%;
+  height: 5%;
+}
+
 footer {
   font-family: "Reem Kufi", sans-serif;
   width: 100%;
