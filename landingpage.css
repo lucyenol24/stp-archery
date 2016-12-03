@@ -1,5 +1,5 @@
 body {
-  color: ghostwhite;
+  color: black;
   background-color: palegreen;
   background-size: 100%;
   display: block;
@@ -8,23 +8,25 @@ body {
 h1 {
   position: fixed;
   margin-top: 50px;
+  width: 100%;
   text-align: center;
   font-size: 4rem;
-  font-family: "Special Elite", cursive;
+  font-family: "Reem Kufi", sans-serif;
 }
 
 a:link, a:visited {
-  color: palevioletred;
+  color: black;
   top: 50%;
   left: 50%;
   text-align: center;
 }
+/*fix link stuff*/
 
 footer {
-  font-family: "Special Elite", cursive;
+  font-family: "Reem Kufi", sans-serif;
   width: 100%;
   position: fixed;
-  color: azure;
+  color: black;
   top: 95%;
   bottom: 0;
 }
