@@ -3,7 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>instructors</title>
+    <link rel="stylesheet" type="text/css" href="instruct.css">
     <script src="https://use.fontawesome.com/9bbd57e3b8.js"></script>
+    
+    <style>
+      * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      div.row {
+        width: 90%;
+        margin: auto;
+      }
+      
+      div.row:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      
+      div[class^='col']  {
+        float: left;
+        background-color: whitesmoke;
+        border: 1px soid black;
+        padding: 1rem;
+      }
+      
+      div.col_1_of_3 {width: 33.3333%;}
+      div.col_1_of_3 {width: 33.3333%;}
+      div.col_1_of_3 {width: 33.3333%;}
+    </style>
+    
   </head>
   
   <header>
@@ -19,27 +53,28 @@
   </nav>
   
   <aside>
+    <div class="row">
     <h2> derek </h2>
+      <img src="https://i.imgur.com/11buVRu.jpg"
+      alt="derek with arrow">
       <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
+    </div>
+    
+    <div class="row">
   
     <h2> amy </h2>
-      <p> Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
-    
-    <h2> nathan </h2>
-      <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-  </aside>
-  
-  <figure>
-    <img src="https://i.imgur.com/11buVRu.jpg"
-      alt="derek with arrow">
-    <p> derek </p>
-    <img src="https://i.imgur.com/DJ2HcbH.jpg"
+      <img src="https://i.imgur.com/DJ2HcbH.jpg"
       alt="amy with arrow">
-    <p> amy </p>
-    <img src="https://i.imgur.com/gdhSAU1.jpg"
+      <p> Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
+    </div>
+    
+    <div class="row">
+    <h2> nathan </h2>
+      <img src="https://i.imgur.com/gdhSAU1.jpg"
       alt="nathan with arrow">
-    <p> nathan </p>
-  </figure>
+      <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
+    </div>
+  </aside>
   
 <footer>
     <details>
