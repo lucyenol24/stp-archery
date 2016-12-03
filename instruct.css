@@ -1,0 +1,36 @@
+body {
+  color: black;
+  background-color: palegreen;
+  background-size: 100%;
+  display: block;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+footer {
+  font-family: "Reem Kufi", sans-serif;
+  width: 100%;
+  position: fixed;
+  color: black;
+  top: 95%;
+  bottom: 0;
+}
+
+h1
+h2
+background
+figure
